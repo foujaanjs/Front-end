@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: goldenrod;
+}
+
+
+.intro{
+    display: flex;
+
+    padding: 10vw;
+    flex-grow: 2;
+    flex-wrap:wrap;
+    flex-basis: 50%;
+    column-gap: 50%;
+}
+
+p{
+    margin-top: 5%;
+}
+
+.skills{
+    display: flex;
+    padding-left: 10vw;
+    padding-top: 5vw;
+    
+    
+}
+
+.internal{
+    margin-top: 3vw;
+    padding: 2vw;
+    margin-bottom: 2vw;
+    flex-wrap: wrap;
+   
+}
+
+.projects{
+ 
+    padding: 30px;
+    padding-left: 10vw;
+    padding-top: 5vw;
+    
+}
+    
+
+
+.contact{
+    padding: 40px;
+    padding-left: 10vw;
+    padding-top: 5vw;
+    
+}
+
+.Query{
+    padding: 40px;
+    padding-left: 10vw;
+    padding-top: 5vw;
+    
+}
+.Query input{
+    
+    color: rgb(5, 5, 5);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+.Query textarea{
+    height: 5vh;
+    width: 70%;
+    padding: 2vw;
+    border: 4px;
+    font-size: 1vw;
+}
+
+.Query button{
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: goldenrod;
+}
+.details{
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+}
+  
+li{
+    padding-left: 10%;
+    
+    justify-content: space-between;
+}
+
+#address{
+    display: flex;
+    align-items: center;
+    
+}
+
+
